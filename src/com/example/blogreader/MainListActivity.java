@@ -50,6 +50,7 @@ public class MainListActivity extends ListActivity {
 		mProgressBar=(ProgressBar) findViewById(R.id.progressBar1);
 		
 		if (isNetworkAvailable()) {
+			//when our app starts it will show a progressing cicle bar on the screen
 			mProgressBar.setVisibility(View.VISIBLE);
 			GetBlogPostsTask getBlogPostsTask = new GetBlogPostsTask();
 			getBlogPostsTask.execute();
@@ -136,6 +137,7 @@ public class MainListActivity extends ListActivity {
 	}
 	
 	public void handleBlogResponse() {
+		//when the doInBackground finish computing all its task the doPost will be called to handle results from doBackground
 		mProgressBar.setVisibility(View.INVISIBLE);
 		if(mBlogData==null){
 			updateDisplayForErrors();
