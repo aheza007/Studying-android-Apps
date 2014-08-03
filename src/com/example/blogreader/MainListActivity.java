@@ -175,7 +175,7 @@ public class MainListActivity extends ListActivity {
 			}
 	}
 
-	private void updateDisplayForErrors() {
+	private void updateDisplayForErrors() {//this is used to display errors in case there is an expected issue
 		AlertDialog.Builder dialogBoxBuilder=new AlertDialog.Builder(this);
 		dialogBoxBuilder.setTitle(R.string.error_title);
 		dialogBoxBuilder.setMessage(R.string.error_message);
