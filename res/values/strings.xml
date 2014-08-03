@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlogReader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_ITEMS">NO ITEMS To DISPLAY</string>
+
+    <string-array name="android_names">
+        <item>Android 1.0 </item>
+        <item>Android 1.1 </item>
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>GingerBread</item>
+        <item>Honeycomb</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Jelly Beane</item>
+    </string-array>
+
+    <string name="error_title">Oops! Sorry</string>
+    <string name="error_message">There was an error getting data from the blog</string>
+    <string name="title_activity_blog_web_view">blogPost</string>
+    <string name="action_share">share</string>
+    <string name="share_Chooser_Title">Share via</string>
+
+</resources>
